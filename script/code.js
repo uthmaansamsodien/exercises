@@ -1,4 +1,4 @@
-// q1
+// q1 
 let fullName = ('Uthmaan Samsodien')
 console.log(fullName);
 
