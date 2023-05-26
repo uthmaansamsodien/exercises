@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-let fullName = ('Uthmaan Samsodien')
-console.log(fullName);
-=======
 // q1 
 let fullName = ('Uthmaan Samsodien')
 console.log(fullName);
@@ -17,4 +13,3 @@ console.log(lastName)
 console.log(age)
 console.log(subjects)
 console.log(address)
->>>>>>> q2
