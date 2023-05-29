@@ -4,32 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>jsExercises</title>
 </head>
 <body>
+    
+    <!-- q1 -->
+    
     <!-- Variable:
-    A variable is a value that can change depending on conditions on any information passed on the program-->
+        A variable is a value that can change depending on conditions on any information passed on the program-->
 
-    <!-- Value:
-    A value is the representation of some entity that can be manipulated by the program it is in-->
+        <!-- Value:
+            A value is the representation of some entity that can be manipulated by the program it is in-->
 
     <!-- Data types:
      This refers to the type of value a variable has and what type of mathematical or logical operation can be applied without causing an error-->
 
      <!-- Initialization:
     This takes the processor from the reset state to a state where the operating system can run, to set (something such as a computer program counter)-->
-
+    
     <!-- Difference between; let, var, const:
-     If you never want to your variable to change, use "const". If you want to reassign values and you want the hoisting behaviour, use "var" and if you dont want it, use "let"-->
+        If you never want to your variable to change, use "const". If you want to reassign values and you want the hoisting behaviour, use "var" and if you dont want it, use "let"-->
 
-     <!-- Variable scope:
-    The place in your program where it can be referenced, where variables can be declared-->
-
-    <!--  When can you decide when to use a for or while, forEach and do while loop:
+        <!-- Variable scope:
+            The place in your program where it can be referenced, where variables can be declared-->
+            
+            <!--  When can you decide when to use a for or while, forEach and do while loop:
     Use a for loop to iterate over an array, use a for loop when you know the loop should execute n times, use a while loop for reading a file into a variable, use a while loop when asking for user input, us a while loop when the increment value is nonstandard -->
 
     <!-- Hoisting and variable scoping
-    Hoisting is a Javascript mechanism where variables and function declarations are moved to the top of their scope before code execution -->
-    <script src="./script/code.js" ></script>
-</body>
+        Hoisting is a Javascript mechanism where variables and function declarations are moved to the top of their scope before code execution -->
+        
+        <!-- q3 -->
+        <!-- <div class="container" >
+            <header>Question 3:</header>
+        <form action="#">
+            <div id="numberone">
+            <span class="numberOne">Number 1:</span>
+            <div class="numb1">
+            <div class="input-field">
+            <input type="number">
+            </div>
+            </div>
+        </div>
+        <div id="operators">
+            <span class="operators">Operators:</span>
+            <div class="operators">
+            <div class="input-field">
+            <input type="text"></div>
+            </div>
+        </div>
+        <div id="numberTwo">
+            <span class="numberTwo">Number 2:</span>
+            <div class="numb2">
+            <div class="input-field">
+            <input type ="number"></div>
+            </div>
+            </div>
+        <div id="Display">
+            <button id="btn" type="button" onclick="">Display</button>
+            <div class="numb2">
+            <div class="input-field">
+            <input type ="number"></div>
+            </div>
+            </div>
+            
+        </form>
+        
+        </div> -->
+        <div class="container">
+            <div class="display1">
+                <label for="number1" class="numb2">Number 1 :</label>
+                <input type="text" name="number1" id="num1">
+            </div>
+            <div class="display2">
+                <label class="oper" for="ops">Operator :</label>
+                <input type="text" name="ops" id="operator">
+            </div>
+            <div class="display3">
+                <label for="number2" class="numb2">Number 2 :</label>
+                <input type="text" name="number2" id="num2">
+            </div>
+            <div class="answer">
+                <div>
+                    <h4>Answer</h4>
+                </div>
+                <div>
+                <p id="ds-answer"></p>
+                </div>
+            </div>
+            <div class="button">
+                <button id="btn" onclick="btnResult()">Display</button>
+            </div>
+            
+        </div>
+        <script src="./script/code.js" ></script>
+        
+    </body>
 </html>
